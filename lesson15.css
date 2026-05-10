@@ -1,0 +1,150 @@
+/* *{
+    padding: 0px;
+    margin: 0px;
+    background: border-box;
+} */
+
+
+.p1{
+    padding: 30px;
+    font-size: 18px;
+    font-family: arial;
+    color: gray;
+    animation: dd 2s infinite alternate;
+}
+
+
+@keyframes dd{
+    from{
+        color: red;
+        transform: rotate(200deg);
+        font-size: 30px;
+        background: gray;
+    }
+    to{
+        color: blue;
+    }
+}
+
+
+.d1{
+    height: 200px;
+    width: 200px;
+    background: red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: gg 3s infinite alternate;
+}
+
+
+@keyframes gg{
+    0%{
+        transform: rotate(10deg);
+        background: yellow;
+        margin-left: 320px;
+    }
+    25%{
+       transform: rotate(125deg);
+        background: blue;
+        margin-left: 640px;
+    }
+    50%{
+        transform: rotate(150deg);
+        background: orange;
+        margin-left: 960px;
+    }
+    75%{
+        transform: rotate(170deg);
+        background: green;
+        margin-left: 1280px;
+    }
+    100%{
+        transform: rotate(360deg);
+        background: yellowgreen;
+        margin-left: 1400px;
+    }
+}
+
+
+.d2{
+    padding: 30px;
+    font-size: 30px;
+    font-family: arial;
+    color: red;
+    transition: 2s;
+}
+
+.d2:hover{
+    color: blue;
+}
+
+
+.d3{
+    height: 200px;
+    width: 200px;
+    background: url(im\ nkary.jpg);
+    border: solid;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.5;
+    transition: 2s;
+}
+
+
+.d3:hover{
+    transform: scale(1.5);
+    opacity: 1;
+    transform: rotate(360deg);
+    /* transform: translateX(300px);
+    transform: translatey(-300px); */
+}
+
+
+.main{
+    height: 450px;
+    width: 300px;
+    border: solid;
+    /* background: gray; */
+}
+
+
+.d4{
+    height: 250px;
+    width: 180px;
+    background-image: url(15pro.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+    opacity: 0.5;
+    margin-top: 10%;
+}
+
+
+.d4:hover{
+    transform: scale(1.2);
+    opacity: 1;
+}
+
+
+.h2:hover{
+    transform: scale(1.2);
+}
+
+
+.h2{
+    margin-left: 15%;
+    margin-top: 10%;
+}
+
+
+.p2{
+    margin-top: 15%;
+    margin-left: 40%;
+}
+
+
+.p2:hover{
+    transform: scale(1.2);
+}

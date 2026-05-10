@@ -1,0 +1,39 @@
+.p1{
+    color: red;
+}
+
+
+.p1{
+    color: red;
+    color: rgb(45,125,155);
+    color: rgba(201,38,144,0.5);
+}
+
+
+.p1{
+    font-size: 30px;
+    text-align: center;
+    text-align: justify;
+    text-align: end;
+    text-align: start;
+}
+
+
+.h2{
+    color: blue;
+    text-align: center;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-transform: uppercase;
+    text-transform: lowercase;
+    font-family: monospace;
+    font-family: "Great Vibes",cursive;
+    letter-spacing: 25px;
+    line-height: 115px;
+}
+
+
+.p1:hover{
+    font-size: 50px;
+    color: blue;
+}

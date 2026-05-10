@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-image: url("nkar10.jpg.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    flex-direction: row;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.radio1, .radio2, .radio3, .radio4 {
+    width: 80px;
+    height: 80px;
+    /* border-radius: 50%; */
+    appearance: none;
+    cursor: pointer;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.6s, box-shadow 0.6s;
+}
+
+
+.radio1{
+    background-image: url(nkar1.jpg);
+}
+
+.radio2{
+    background-image: url(nkar2.jpg);
+}
+
+.radio3{
+    background-image: url(nkar3.jpg);
+}
+
+.radio4{
+    background-image: url(nkar4.jpg);
+}
+
+
+.radio1:hover,
+.radio2:hover,
+.radio3:hover,
+.radio4:hover {
+    transform: scale(1.2);
+    border-radius: 50%;
+    box-shadow: 0 0 30px gray;
+}
+
+
+.item1, .item2 {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    z-index: -1;
+    transition: opacity 0.6s ease;
+}
+
+
+.radio1:checked~ .item1{
+    opacity: 1;
+    background-image: url(nkar1.jpg);
+}
+
+.radio2:checked~ .item1{
+    opacity: 1;
+    background-image: url(nkar2.jpg)
+}
+
+.radio3:checked~ .item1{
+    opacity: 1;
+    background-image: url(nkar3.jpg)
+}
+
+.radio4:checked~ .item1{
+    opacity: 1;
+    background-image: url(nkar4.jpg);
+}
+
+

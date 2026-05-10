@@ -1,0 +1,79 @@
+*{
+	padding: 0px;
+	margin: 0px;
+    box-sizing: border-box;
+}
+.div1{
+	width: 100%;
+	height: 70px;
+	border: solid 1px;
+	background: green;
+	margin-top: 20px;
+	
+}
+.logo{
+	float: left;
+	color: red;
+	padding: 15px;
+} 
+.logo:hover{
+	color: yellow;
+	font-size: 30px;
+} 
+.ul1{
+	float: right;
+	list-style: none;
+}
+.ul1 li{
+	float: left;
+	/* gap: 20px; */
+	padding: 20px;
+	color: orange;
+} 
+.ul1 li:hover{
+	color: red;
+	font-size: 20px;
+} 
+
+
+.div2{
+	height: 200px;
+	width: 30%;
+	border: solid 1px;
+	float: left;
+	margin: 2%;
+	padding: 5px;
+	background-color: yellowgreen;
+	
+}
+.div3{
+	border: solid 1px;
+	height: 200px;
+	width: 30%;
+	margin: 2%;
+	float: left;
+	background: red;
+	text-align: justify;
+}
+
+.p2{
+     margin: 5%;
+     padding-top: 20px;
+     font-size: 12px;
+	 font-style: monospace;
+     
+}
+.div4{
+	height: 200px;
+	width: 20%;
+	margin: 2%;
+	float: right;
+	text-align: center;
+	background-color: blueviolet;
+}
+.div41{
+	height: 100px;
+	width: 100%;
+	background-image:url('im\ nkary.jpg');
+	background-size:cover;
+}

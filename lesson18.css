@@ -1,0 +1,131 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.d{
+  height: 400px;
+  width: 400px;
+  background: green;
+  position: relative;
+}
+.d2{
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  animation-name: ss;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation: ss 2s infinite;
+}
+@keyframes ss{
+  0%{
+    left: 0;
+    top: 0;
+ }
+  50%{
+    left: 175px;
+    top: 350px;
+    background: yellow;
+    border-radius: 50%;
+  }
+  100%{
+    left: 350px;
+    top: 0;
+    background: gray;
+  }
+}
+.big{
+	position: relative;
+	border: solid 3px red;
+	width: 500px;
+	height: 500px;
+}
+.big div{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+}
+.box1{
+	top: 0;
+	left: 0;
+	background: red;
+	animation: box1 4s linear infinite; 
+}
+.box2{
+	top: 0;
+	left: 0;
+	background: green;
+	animation: box2 4s linear infinite;
+} 
+.box3{
+	top: 0;
+	left: 0;
+	background: yellow;
+	animation: box3 4s linear infinite;
+} 
+@keyframes box1{
+	0%{
+		top: 0;
+		left: 0;
+	}
+	25%{
+		top: 0;
+		left: 400px;
+	}
+	50%{
+		top: 400px;
+		left: 400px;
+	}
+	75%{
+		top: 400px;
+		left: 0;
+	}
+	100%{
+		top: 0;
+		left: 0;
+	}
+}
+@keyframes box2{
+	0%{
+		top: 0;
+		left: 400px;
+	}
+	25%{
+		top: 400px;
+		left: 400px;
+	}
+	50%{
+		top: 400px;
+		left: 0;
+	}
+	75%{
+		top: 0;
+		left: 0;
+	}
+	100%{
+		top: 0;
+		left: 400px;
+	}
+}
+@keyframes box3{
+	0%{
+		top: 400px;
+		left: 400px;
+	}
+	25%{
+		top: 400px;
+		left: 0;
+	}
+	50%{
+		top: 0;
+		left: 0;
+	}
+	75%{
+		top: 0;
+		left: 400px;
+	}
+	100%{
+		top: 400px;
+		left: 400px;
+	}
+}

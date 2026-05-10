@@ -1,0 +1,122 @@
+/* .d1{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-family: arial;
+} */
+
+.p2{
+    background: blue;
+    color: black;
+}
+
+@media screen and (max-width: 580px) {
+    .d1{
+        background: red;
+        font-size: 30px;
+    }
+    .p2{
+        background: black;
+        color: red;
+    }
+}
+
+@media screen and (min-width: 580px) {
+    .d1{
+        background: greenyellow;
+    }
+}
+
+.main1{
+    width: 760px;
+    height: 200px;
+    background-color: white;
+    display: flex;
+}
+
+.d2{
+    width: 250px;
+    height: 200px;
+    background-color: red;
+    overflow: scroll;
+}
+
+.d3{
+    width: 250px;
+    height: 200px;
+    background-color: blue;
+    overflow: scroll;
+}
+
+.d4{
+    width: 250px;
+    height: 200px;
+    background-color: orange;
+    overflow: scroll;
+}
+
+@media screen and (max-width: 768px) {
+    .main1{
+        display: block;
+    }
+    .d2{
+        width: 100%;
+    }
+    .d3{
+        width: 100%;
+    }
+    .d4{
+        width: 100%;
+    }
+} 
+
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.d5{
+    width: 30%;
+    height: 100%;
+    background-color: chocolate;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.p3{
+    font-size: 30px;
+    padding-left: 3%;
+}
+
+.h2{
+    padding-left: 20%;
+    font-size: 30px;
+}
+
+.d6{
+    width: 70%;
+    height: 100%;
+    margin-left: 2%;
+    margin-top: 10%;
+}
+
+.ic{
+    font-size: 40px;
+    margin-left: 10%;
+    margin-top: 10%;
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .main{
+        display: block;
+    }
+    .d5{
+        width: 100%;
+        text-align: center;
+    }
+    .d6{
+        width: 100%;
+    }
+}

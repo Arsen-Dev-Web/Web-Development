@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main1{
+    height: 45px;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    padding-top: 10px;
+    justify-content: space-between;
+}
+
+.d1{
+    width: 40%;
+    height: 50px;
+    padding-left: 10px;
+}
+
+.p1{
+    color: black;
+    font-size: 22px;
+}
+
+.ul1{
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin-right: 35px;
+}
+
+.ic{
+    font-size: 22px;
+    color: blue;
+}
+
+
+.menu2{
+  display: flex;
+  justify-content: space-between;
+}
+
+.d11{
+  display: flex;
+  margin-top: 5px;
+  margin-right: 20px;
+}
+
+.d11 div{
+  padding: 10px;
+
+}
+
+.d11 div p{
+  color: lightgray;
+}
+
+.d2, .d3{
+  border-right: solid 1px lightgray;
+}
+
+.sp{
+    color: orangered;
+}
+
+.h2{
+    padding-top: 13px;
+    margin-left: 30px;
+}
+
+.menu3{
+  background: black;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.ul2{
+  display: flex;
+  list-style: none;
+  margin-left: 20px;
+}
+
+.ul2 li{
+  padding: 20px;
+}
+
+.ul2 li a{
+  text-decoration: none;
+  color: white;
+}
+
+ button{
+  margin-top: 15px;
+  margin-right: 20px;
+  padding: 5px 10px 5px 10px;
+  color: white;
+  background: orange;
+  border: none;
+}
+
+.li1:hover {
+  background: orange;
+}
+
+.li2:hover {
+    background: orange;
+}
+
+.li3:hover {
+    background: orange;
+}
+
+.li4:hover {
+    background: orange;
+}
+
+.li5:hover {
+    background: orange;
+}
+
+.katu{
+  height: 625px;
+  background-image: url(cat.jpg);
+  background-position: center;
+  background-size:cover ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.katu1{
+  text-align: center;
+}
+
+.k1{
+  color: white;
+  font-size: 30px;
+}
+
+.k2{
+  color: white;
+  font-size: 40px;
+}
+
+.btn1{
+  background: lightgreen;
+}
+
+.dzax{
+  position: absolute;
+  left: 50px;
+  background: orange;
+  padding: 10px;
+}
+
+.aj{
+  position: absolute;
+  right : 50px;
+  background: orange;
+  padding: 10px;
+}
+
+.main3{
+    height: 60px;
+    width: 100%;
+    background: linear-gradient(45deg,white,gray,orange);
+}
+
+.house1{
+    color: aquamarine;
+}
+
+.d5{
+    width: 30%;
+    padding-top: 15px;
+}
+
+.main4{
+    height: 500px;
+    width: 100%;
+    background: linear-gradient(45deg,white,gray,orange);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.child1{
+    padding-top: 25px;
+}
+
+.d6{
+    padding-top: 70px;
+    padding-left: 80px;
+}
+
+.p2{
+    color: green;
+}
+
+.sp3{
+    padding-right: 10px;
+    color: black;
+}
+
+.k4{
+    color: orange;
+}
+
+.hs2{
+    color: green;
+}
+
+.main5{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-top: 50px;
+}
+
+.d8{
+    height: 110px;
+    border-left: solid 1px white;
+}
+
+.child1{
+    padding-left: 40px;
+}
+
+.main6{
+    height: 330px;
+    width: 100%;
+    /* display: flex;
+    justify-content: space-evenly; */
+}
+
+.j6{
+    color: green;
+    padding-left: 60px;
+    padding-top: 20px;
+}
+
+.d9{
+    height: 200px;
+    width: 40%;
+    /* margin-left: 100px;
+    margin-top: 30px; */
+}
+
+.sp5{
+    color: orange;
+}
+
+.k10{
+    color: green;
+}
+
+.sp7{
+    color: black;
+}
+
+.d10{
+    width: 40%;
+    height: 330px;
+    background-image: url("chess.jpg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.main7{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 60px;
+}

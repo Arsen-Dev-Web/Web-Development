@@ -1,0 +1,165 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+.div1{
+	min-height: 20px;
+	width: 100%;
+	background: lightblue ;
+}
+.div2{
+	min-height: 20px;
+	width: 100%;
+	display: flex;
+}
+.div21{
+	min-height: 20px;
+	width: 45%;
+	text-align: center;
+	margin: 2%;
+}
+.div22{
+	min-height: 20px;
+	width: 10%;
+	background: lightblue;
+	text-align: center;
+	padding: 12px;
+}
+.div23{
+	min-height: 20px;
+	width: 45%;
+	display: flex;
+	justify-content: space-between;
+}
+.ul1{
+	
+	display: flex;
+}
+.ul1 li{
+	list-style: none;
+	padding: 15px;
+}
+.div3{
+	min-height: 250px;
+	width: 100%;
+	background-image: url(nkar2.jpg);
+	background-size: cover;
+	background-position: center;
+	padding: 40px;
+	text-align: center;
+}
+.div4{
+	min-height: 100px;
+	width: 100%;
+	background: lightblue;
+	padding: 30px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.div5{
+	height: 70px;
+	width: 100%;
+	text-align: center;
+	margin: 2%;
+}
+.div6{
+	min-height: 150px;
+	width: 100%;
+	display: flex;
+}
+.div61{
+	min-height: 150px;
+	width: 33.3%;
+}
+.div611{
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	background: lightblue;
+	margin: 4%;
+}
+.div612{
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	background: lightblue;
+	margin: 4%;
+}
+h3{
+	padding: 30px;
+	margin: 5%;
+}
+.div62{
+	min-height: 150px;
+	width: 33.3%;
+}
+.div621{
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	background: lightblue;
+	margin: 4%;
+}
+.div622{
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	background: lightblue;
+	margin: 4%;
+}
+.div63{
+	min-height: 150px;
+	width: 33.3%;
+}
+.div631{
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	background: lightblue;
+	margin: 4%;
+}
+.div632{
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	background: lightblue;
+	margin: 4%;
+}
+.div7{
+	height: 50px;
+	width: 100%;
+	text-align: center;
+	background: black;
+}
+.h3{
+	color: lightblue;
+	text-align: center;
+}
+.div8{
+	height: 100px;
+	width: 100%;
+	display: flex;
+	justify-content:space-around;
+	background: black;
+}
+.div81{
+	height: 100px;
+	width: 50%;
+	color: lightblue;
+	background-image: url(book.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.div82{
+	height: 100px;
+	width: 50%;
+	background-image: url(book.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.p1{
+	color: lightblue;
+	text-align: center;
+}

@@ -1,0 +1,221 @@
+.main{
+    height: 500px;
+    width: 500px;
+    background: black;
+    margin: auto;
+    position: relative;
+}
+
+
+.d1{
+    height: 50px;
+    width: 50px;
+    background: red;
+    left: 0;
+    top: 0;
+    position: absolute;
+    animation: gg 2s infinite;
+}
+
+@keyframes gg{
+    0%{
+       left: 0;
+       top: 0;
+    }
+    25%{
+        left: 450px;
+        top: 0;
+    }
+    50%{
+        top: 450px;
+        left: 450px;
+    }
+    75%{
+        left: 0;
+        top: 450px;
+    }
+    100%{
+        left: 0;
+        top: 0;
+    }
+}
+
+
+.d2{
+    height: 50px;
+    width: 50px;
+    background: blue;
+    left: 0;
+    top: 0;
+    position: absolute;
+    animation: dd 2s infinite;
+}
+
+
+@keyframes dd{
+    0%{
+        top: 0;
+        left: 450px;
+    }
+    25%{
+        left: 450px;
+        top: 450px;
+    }
+    50%{
+        top: 450px;
+        left: 0;
+    }
+    75%{
+        top: 0;
+        left: 0;
+    }
+    100%{
+        top: 0;
+        left: 450px;
+    }
+}
+
+
+.d3{
+    height: 50px;
+    width: 50px;
+    background: yellow;
+    left: 0;
+    top: 0;
+    position: absolute;
+    animation: aa 2s infinite;
+}
+
+
+@keyframes aa{
+    0%{
+        top: 450px;
+        left: 450px;
+    }
+    25%{
+        left: 0;
+        top: 450px;
+    }
+    50%{
+        top: 0;
+        left: 0;
+    }
+    75%{
+        top: 0;
+        left: 450px;
+    }
+    100%{
+        top: 450px;
+        left: 450px;
+    }
+}
+
+
+.d4{
+    height: 50px;
+    width: 50px;
+    background: orange;
+    left: 0;
+    top: 0;
+    position: absolute;
+    animation: ee 2s infinite;
+}
+
+@keyframes ee{
+     0%{
+        top: 450px;
+        left: 0;
+    }
+    25%{
+        left: 0;
+        top: 0;
+    }
+    50%{
+        top: 0;
+        left: 450px;
+    }
+    75%{
+        top: 450px;
+        left: 450px;
+    }
+    100%{
+        top: 450px;
+        left: 0;
+    }
+}
+
+
+.d5{
+    width: 400px;
+    height: 500px;
+    border: solid;
+    margin: auto;
+}
+
+
+.d6{
+    width: 200px;
+    height: 250px;
+    background: url(15pro.jpg);
+    background-position: center;
+    background-size: cover;
+    opacity: 0.5;
+    transition: 2s;
+    margin-top: 10%;
+    margin-left: 25%;
+}
+
+.d6:hover{
+    transform: scale(1.2);
+    opacity: 1;
+}
+
+
+.h2{
+    text-align: center;
+    transition: 1s;
+    margin-top: 10%;
+}
+
+.h2:hover{
+    transform: scale(1.2);
+}
+
+
+.p1{
+    text-align: center;
+    transition: 1s;
+    margin-top: 10%;
+}
+
+.p1:hover{
+    transform: scale(1.2);
+}
+
+
+.p2{
+    text-align: center;
+    transition: 1s;
+    margin-top: 8%;
+}
+
+.p2:hover{
+    transform: scale(1.2);
+}
+
+
+.d7{
+    height: 250px;
+    width: 250px;
+    background: url("aa.jpg");
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+    transition: 2s;
+    opacity: 0.5;
+}
+
+.d7:hover{
+    opacity: 1;
+    transform: rotate(360deg);
+}

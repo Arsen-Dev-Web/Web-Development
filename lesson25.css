@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.d1 {
+    height: 70px;
+    width: 100%;
+    background: linear-gradient(red, orange, yellow, yellowgreen, green);
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+}
+
+.ul1 {
+    display: flex;
+    text-decoration: none;
+}
+
+.ul1 li a {
+    font-size: 18px;
+    /* text-decoration: none; */
+}
+
+.ul1 li a {
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.ul1 li {
+    font-size: 15px;
+    padding: 15px;
+    list-style: none;
+}
+
+.ul1 {
+    margin-left: 35%;
+}
+
+.d2 {
+    width: 100%;
+    height: 400px;
+    background-image: url(chess.jpg.jpg);
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.main {
+    width: 100%;
+    height: 450px;
+    background: green;
+    display: flex;
+    align-items: center;
+}
+
+.d3 {
+    width: 27%;
+    height: 300px;
+    background-color: white;
+    margin-left: 5%;
+    overflow: scroll;
+}
+
+.h2 {
+    margin-left: 40%;
+}
+
+.p1 {
+    margin-top: 7%;
+    margin-left: 4%;
+}
+
+.d4 {
+    width: 27%;
+    height: 300px;
+    background-color: white;
+    margin-left: 5%;
+    overflow: scroll;
+}
+
+.h3 {
+    margin-left: 40%;
+}
+
+.p2 {
+    margin-top: 7%;
+    margin-left: 4%;
+}
+
+.d5 {
+    width: 27%;
+    height: 300px;
+    background-color: white;
+    margin-left: 5%;
+    overflow: scroll;
+}
+
+.h4 {
+    margin-left: 40%;
+}
+
+.p3 {
+    margin-top: 7%;
+    margin-left: 4%;
+}
+
+.ic {
+    font-size: 45px;
+    padding: 15px;
+}
+
+.main1 {
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+
+.d6 {
+    width: 70%;
+    height: 400px;
+}
+
+.h5 {
+    font-size: 30px;
+    margin-left: 48%;
+}
+
+.p4 {
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.h6 {
+    font-size: 30px;
+    margin-left: 46%;
+    margin-top: 4%;
+}
+
+.p5 {
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.d7 {
+    width: 26%;
+    height: 400px;
+    background: yellow;
+}
+
+.h1 {
+    font-size: 20px;
+    margin-left: 40%;
+    padding-top: 10px;
+}
+
+.ul2 {
+    text-decoration: none;
+}
+
+.ul2 li a {
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.ul2 li a {
+    font-size: 18px;
+    /* text-decoration: none; */
+}
+
+.ul2 li {
+    font-size: 15px;
+    padding: 15px;
+    list-style: none;
+}
+
+.ul2 {
+    margin-left: 35%;
+}
+
+.main4 {
+    width: 100%;
+    height: 600px;
+    background-color: mediumpurple;
+}
+
+.main2 {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.d8 {
+    width: 21%;
+    height: 200px;
+    background-image: url(chess.jpg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.d9 {
+    width: 21%;
+    height: 200px;
+    background-image: url(chess.jpg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.d10 {
+    width: 21%;
+    height: 200px;
+    background-image: url(chess.jpg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.d11 {
+    width: 21%;
+    height: 200px;
+    background-image: url(chess.jpg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.d12 {
+    width: 30%;
+    height: 250px;
+    background-color: white;
+}
+
+.d13 {
+    width: 30%;
+    height: 250px;
+    background-color: white;
+    background-image: url(chess.jpg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.d14 {
+    width: 30%;
+    height: 250px;
+    background-color: white;
+}
+
+.p6 {
+    margin-top: 3%;
+}
+
+.p7 {
+    margin-top: 3%;
+}
+
+.main3 {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+}

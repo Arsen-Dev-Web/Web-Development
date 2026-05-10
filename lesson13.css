@@ -1,0 +1,81 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background: border-box;
+}
+
+
+.body{
+    background: yellow;
+}
+
+
+.h2{
+    color: red;
+    font-size: 50px;
+    margin: auto; 
+    text-align: center;
+    padding-top: 10%;
+}
+
+
+.d1{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: solid 1px;
+    background-image: url("dog.img");
+    background-position: center;
+    background-size: cover;
+    margin-top: 10%;
+    margin-left: 2%;
+}
+
+
+.p1{
+    margin-top: 2%;
+}
+
+
+.h3{
+    color: red;
+    font-size: 50px;
+    margin: auto; 
+    text-align: center;
+    padding-top: 10%;
+    text-shadow: 1px 1px 2px red,0 0 10px black;
+    padding-bottom: 10%; 
+}
+
+
+.d2{
+    height: 200px;
+    width: 300px;
+    border-radius: 50%;
+    border: solid 1px;
+    background-image: url(cat.img);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 20px -10px 20px blue;
+}
+
+
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    height: 500px;
+    width: 100%;
+}
+
+
+.p2{
+    text-shadow: 2px 1px 2px red;
+    /* margin-top: 10%;
+    margin-left: 2%; */
+}
+
+
+.d4{
+    height: 400px;
+    width: 50%;
+}
