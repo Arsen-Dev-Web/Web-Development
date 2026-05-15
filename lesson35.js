@@ -71,7 +71,7 @@
 // console -ում a-ն տպի 25 օգտագործելով մեր c-արժեքը
 // let a = 15;
 // let b = 25;
-// let c = ;   
+// let c = 10;   
 // console.log(a + c)
 
 // let d = "15";
