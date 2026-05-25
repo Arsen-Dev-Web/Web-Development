@@ -107,7 +107,7 @@ if (c === "+") {
 } else if (c === "/") {
   result = a / b;
   alert("արդյունք " + result);
-} 
+}  
 
 //  let points = 0;
 //  let resp0= prompt("what is a capital of Armenia")

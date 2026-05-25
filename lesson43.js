@@ -34,7 +34,7 @@
     function myf() {
         var str = "Hello 1111, welcome to the universe";
         var res = str.includes("222");
-        document.writeln(res); // Output: true/false
+        document.writeln(res); // Output: true/false 
     }
     // indexOf-Վերադարձնում է առաջին հանդիպման ինդեքսը 
 

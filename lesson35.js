@@ -144,9 +144,6 @@
 
 
 
-
-
-
 // let a = Number(prompt("How old are you?"));
 // if (a >= 18) {
 //   alert(" Բարի գալուստ :))");
