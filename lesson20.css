@@ -1,74 +1,79 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-
-body{
-    height: 100vh;
-    width: 100%;
-    margin: 0;
-    padding: 10px 20px;
-    background-image: url("nkar10.jpg.jpg");
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    flex-direction: row;
-    position: relative;
-    overflow: hidden;
+body {
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 10px 20px;
+  background-image: url("nkar10.jpg.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-direction: row;
+  position: relative;
+  overflow: hidden;
 }
 
-
-.radio1, .radio2, .radio3, .radio4, .radio5, .radio6, .radio7, .radio8 {
-    width: 80px;
-    height: 80px;
-    /* border-radius: 50%; */
-    appearance: none;
-    cursor: pointer;
-    background-size: cover;
-    background-position: center;
-    transition: transform 0.6s, box-shadow 0.6s;
-    background-size: 250%;
-    background-repeat: no-repeat;
-    border-radius: 50%;
+.radio1,
+.radio2,
+.radio3,
+.radio4,
+.radio5,
+.radio6,
+.radio7,
+.radio8 {
+  width: 80px;
+  height: 80px;
+  /* border-radius: 50%; */
+  appearance: none;
+  cursor: pointer;
+  background-size: cover;
+  background-position: center;
+  transition:
+    transform 0.6s,
+    box-shadow 0.6s;
+  background-size: 250%;
+  background-repeat: no-repeat;
+  border-radius: 50%;
 }
 
-
-.radio1{
-    background-image: url(nkar1.jpg);
+.radio1 {
+  background-image: url(nkar1.jpg);
 }
 
-.radio2{
-    background-image: url(nkar2.jpg);
+.radio2 {
+  background-image: url(nkar2.jpg);
 }
 
-.radio3{
-    background-image: url(nkar3.jpg);
+.radio3 {
+  background-image: url(nkar3.jpg);
 }
 
-.radio4{
-    background-image: url(nkar4.jpg);
+.radio4 {
+  background-image: url(nkar4.jpg);
 }
 
-.radio5{
-    background-image: url(nkar5.jpg);
+.radio5 {
+  background-image: url(nkar5.jpg);
 }
 
-.radio6{
-    background-image: url(nkar6.jpg);
+.radio6 {
+  background-image: url(nkar6.jpg);
 }
 
-.radio7{
-    background-image: url(nkar7.jpg);
+.radio7 {
+  background-image: url(nkar7.jpg);
 }
 
-.radio8{
-    background-image: url(nkar8.jpg);
+.radio8 {
+  background-image: url(nkar8.jpg);
 }
-
 
 .radio1:hover,
 .radio2:hover,
@@ -78,123 +83,118 @@ body{
 .radio6:hover,
 .radio7:hover,
 .radio8:hover {
-    transform: scale(1.2);
-    box-shadow: 0 0 30px gray;
+  transform: scale(1.2);
+  box-shadow: 0 0 30px gray;
 }
 
 .item1 {
-    width: 200px;
-    height: 200px;
-    background-size: 170%;
-    background-repeat: no-repeat;
-    position: absolute;
-    /* background-size: cover; */
-    background-position: center;
-    top: 100px;
-    left: 100px;
-    border-radius: 50%;
-    opacity: 0;
-    z-index: -1;
-    transition: opacity 0.6s ease;
+  width: 200px;
+  height: 200px;
+  background-size: 170%;
+  background-repeat: no-repeat;
+  position: absolute;
+  /* background-size: cover; */
+  background-position: center;
+  top: 100px;
+  left: 100px;
+  border-radius: 50%;
+  opacity: 0;
+  z-index: -1;
+  transition: opacity 0.6s ease;
 }
 
-.radio1:checked~ .item1{
-    opacity: 1;
-    background-image: url(nkar1.jpg);
+.radio1:checked ~ .item1 {
+  opacity: 1;
+  background-image: url(nkar1.jpg);
 }
 
-.radio2:checked~ .item1{
-    opacity: 1;
-    background-image: url(nkar2.jpg);
-    top: 400px;
-    left: 200px;
+.radio2:checked ~ .item1 {
+  opacity: 1;
+  background-image: url(nkar2.jpg);
+  top: 400px;
+  left: 200px;
 }
-
 
 .item2 {
-    width: 200px;
-    height: 200px;
-    position: absolute;
-    background-size: cover;
-    background-position: center;
-    background-size: 260%;
-    background-repeat: no-repeat;
-    border-radius: 50%;
-    opacity: 0;
-    z-index: -1;
-    transition: opacity 0.6s ease;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  background-size: cover;
+  background-position: center;
+  background-size: 260%;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  opacity: 0;
+  z-index: -1;
+  transition: opacity 0.6s ease;
 }
 
-.radio3:checked~ .item2{
-    opacity: 1;
-    background-image: url(nkar3.jpg);
-    left: 600px;
-    top: 300px;
+.radio3:checked ~ .item2 {
+  opacity: 1;
+  background-image: url(nkar3.jpg);
+  left: 600px;
+  top: 300px;
 }
 
-.radio4:checked~ .item2{
-    opacity: 1;
-    background-image: url(nkar4.jpg);
-    left: 900px;
-    top: 400px;
+.radio4:checked ~ .item2 {
+  opacity: 1;
+  background-image: url(nkar4.jpg);
+  left: 900px;
+  top: 400px;
 }
-
 
 .item3 {
-    width: 200px;
-    height: 200px;
-    position: absolute;
-    background-size: cover;
-    background-position: center;
-    border-radius: 50%;
-    background-repeat: no-repeat;
-    background-size: 230%;
-    opacity: 0;
-    z-index: -1;
-    transition: opacity 0.6s ease;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: 230%;
+  opacity: 0;
+  z-index: -1;
+  transition: opacity 0.6s ease;
 }
 
-
-.radio5:checked~ .item3{
-    opacity: 1;
-    background-image: url(nkar5.jpg);
-    left: 1100px;
-    top: 500px;
+.radio5:checked ~ .item3 {
+  opacity: 1;
+  background-image: url(nkar5.jpg);
+  left: 1100px;
+  top: 500px;
 }
 
-.radio6:checked~ .item3{
-    opacity: 1;
-    background-image: url(nkar6.jpg);
-    left: 1100px;
-    top: 50px;
+.radio6:checked ~ .item3 {
+  opacity: 1;
+  background-image: url(nkar6.jpg);
+  left: 1100px;
+  top: 50px;
 }
-
 
 .item4 {
-    width: 200px;
-    height: 200px;
-    position: absolute;
-    background-size: cover;
-    background-position: center;
-    background-size: 270%;
-    border-radius: 50%;
-    background-repeat: no-repeat;
-    opacity: 0;
-    z-index: -1;
-    transition: opacity 0.6s ease;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  background-size: cover;
+  background-position: center;
+  background-size: 270%;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  opacity: 0;
+  z-index: -1;
+  transition: opacity 0.6s ease;
 }
 
-
-.radio7:checked~ .item4{
-    opacity: 1;
-    background-image: url(nkar7.jpg);
-    left: 700px;
-    top: 70px;
+.radio7:checked ~ .item4 {
+  opacity: 1;
+  background-image: url(nkar7.jpg);
+  left: 700px;
+  top: 70px;
 }
 
-.radio8:checked~ .item4{
-    opacity: 1;
-    background-image: url(nkar8.jpg);
-    left: 1200px;
-    top: 300px;
+.radio8:checked ~ .item4 {
+  opacity: 1;
+  background-image: url(nkar8.jpg);
+  left: 1200px;
+  top: 300px;
 }

@@ -8,7 +8,6 @@
 
 // /* ՏՎՅԱԼՆԵՐԻ ՏԻՊԵՐԸ */
 
-
 // // 1. string -տեքստային արժեք +"2" + 2
 // // 2. number -թվեր
 // // 3. boolean -true or false
@@ -16,7 +15,7 @@
 // // 5. Undefined -չգտնված,չհաստատված
 // // 6. Function -ֆունցիա
 // // 7. Object -օբեկտներ
-// // 8. Array -զանգված 
+// // 8. Array -զանգված
 
 // // Արտածում,արտածման ֆունկցիաները
 
@@ -30,12 +29,11 @@
 // // let - փոփոխվող,իրենով ստեղծված արժեքը կարող ենք փոխել,
 // // var - անսիխրոն կոդի ժամանակ աշխատում է եւ տալիս չհաստատված արժեք,
 
-// // let a = "sirun"
-// // let b = " axjik"
-// // document.write(a + b)
-// // // document.writeln(a+ " " + b)
-// // console.log(a+b)
-
+// var a = "sirun";
+// let b = " axjik";
+// document.write(a + b);
+// document.writeln(a + " " + b);
+// console.log(a + b);
 
 // Համեմատության օպերատորներ
 
@@ -49,9 +47,7 @@
 // !== - հավասար չի
 // !=== -  խիստ հավասար չի
 
-
 // Թվաբանական օպերատորներ
-
 
 // + -գումարում
 // - -հանում
@@ -59,38 +55,32 @@
 // / -բաժանում
 // % - majio,վերադարձնում է մնացորդ
 
-
 // Լոգիկայի օպերատորներ
 
 // && - և
-// || - կամ 
+// || - կամ
 // ! - չ
 
 // խնդիր 1
 
 // console -ում a-ն տպի 25 օգտագործելով մեր c-արժեքը
-// let a = 15;
+// var a = 15;
 // let b = 25;
-// let c = 10;   
-// console.log(a + c)
+// let c = 10;
+// console.log(a + c);
 
 // let d = "15";
-// let f = "25";  
+// let f = "25";
 // console.log(d + f)
-
 
 // խնդիր 2
 // console -ում  տպի 35 օգտագործելով մեր h-ի-արժեքը
-
 
 // let j = 15;
 // let g = 25;
 // let h = +"10";
 
 // document.writeln(g + h);
- 
-
-
 
 //  խնդիր 2
 
@@ -118,15 +108,10 @@
 
 // console.log(d + " " + g + " " + b + " " + f + " " + e + ", " + a + " " + h + " " + i + " " + c);
 
-
-
-//  let name = prompt( "what is your name");
-//    alert("Nice to meet you " + name);
-//   let lastname = prompt( "what is your lastname");
-//     alert("Nice to meet you " + name + " " + lastname );
-
-
-
+// let name = prompt("what is your name");
+// alert("Nice to meet you " + name);
+// let lastname = prompt("what is your lastname");
+// alert("Nice to meet you " + name + " " + lastname);
 
 // let a = 2;
 // let b = 3;
@@ -135,19 +120,13 @@
 // // alert(d);
 // console.log(d)
 
-
-
-
 // let a = 4;
 // let b = ((+"4") + 4) + +"55" + (2 + a) + (+"1" + a) - (a + +"30") + (a - 5);
 //  alert (b + 1);
 
-
-
 // let a = Number(prompt("How old are you?"));
 // if (a >= 18) {
 //   alert(" Բարի գալուստ :))");
-
 // } else {
 //   alert("հաջողություն ❌ :( ");
-// } 
+// }
