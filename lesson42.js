@@ -83,14 +83,16 @@
 
 // Xndir 2
 
-// let color = ['red','green','blue','lime','magenta'];
+// let color = ["red", "green", "blue", "lime", "magenta"];
 // let l = Math.round(Math.random() * 4);
 // let e = color[l];
-// function div(a,b,c) {
-//     document.write(`<div style="width: ${a}px; height: ${b}px; background: ${c}"></div>`);
+// function div(a, b, c) {
+//   document.write(
+//     `<div style="width: ${a}px; height: ${b}px; background: ${c}"></div>`,
+//   );
 // }
 
-// div(Math.round(Math.random() * 500), Math.round(Math.random() * 500),`${e}`);
+// div(Math.round(Math.random() * 500), Math.round(Math.random() * 500), `${e}`);
 
 //   xndir 3
 
@@ -135,24 +137,24 @@
 // }
 // create();
 
-function creatediv() {
-  let div = document.createElement("div");
+// function creatediv() {
+//   let div = document.createElement("div");
 
-  let r = Math.floor(Math.random() * 255);
-  let g = Math.floor(Math.random() * 255);
-  let b = Math.floor(Math.random() * 255);
+//   let r = Math.floor(Math.random() * 255);
+//   let g = Math.floor(Math.random() * 255);
+//   let b = Math.floor(Math.random() * 255);
 
-  let size = Math.floor(Math.random() * 100) + 50;
-  let radius = Math.floor(Math.random() * 50);
+//   let size = Math.floor(Math.random() * 100) + 50;
+//   let radius = Math.floor(Math.random() * 50);
 
-  div.style.width = size + "px";
-  div.style.height = size + "px";
-  div.style.backgroundColor = `rgb(${r}, ${g}, ${b})`;
-  div.style.borderRadius = radius + "%";
-  div.style.display = "inline-block";
-  div.style.margin = "8px";
+//   div.style.width = size + "px";
+//   div.style.height = size + "px";
+//   div.style.backgroundColor = `rgb(${r}, ${g}, ${b})`;
+//   div.style.borderRadius = radius + "%";
+//   div.style.display = "inline-block";
+//   div.style.margin = "8px";
 
-  document.body.appendChild(div);
-}
+//   document.body.appendChild(div);
+// }
 
-creatediv();
+// creatediv();

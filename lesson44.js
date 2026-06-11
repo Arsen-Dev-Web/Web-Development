@@ -106,7 +106,15 @@
 //   demo.innerHTML += arr[i] + "<br>";
 // }
 
-// var fruits = ["banana", "orange", "apple", "pinaple", "mango"];
+// var fruits = [
+//   "banana",
+//   "orange",
+//   "apple",
+//   "pinaple",
+//   "mango",
+//   "barev",
+//   "hajox",
+// ];
 // demo.innerHTML = fruits;
 
 // function myf() {

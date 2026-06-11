@@ -1,0 +1,408 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.main1 {
+  height: 80px;
+  width: 100%;
+  background-color: rgba(210, 249, 249, 0.805);
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  font-family: 'Bebas Neue', sans-serif;
+  border: 1px solid;
+  position: fixed;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+
+nav ul li{
+  transition: 0.3s;
+}
+
+nav ul li:hover{
+  opacity: 0.5;
+}
+
+.btn1{
+  border-radius: 10px;
+  width: 170px;
+  height: 35px;
+  background-color: #820cff;
+  transition: 0.3s;
+}
+
+.btn1:hover{
+  width: 170px;
+  height: 35px;
+  color: white;
+  background-color: black;
+}
+
+.h2{
+    padding-top: 100px;
+    font-size: 80px;
+    padding-left: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+
+.main2{
+    height: 1200px;
+    width: 100%;
+}
+
+.main22{
+  width: 100%;
+  height: 600px;
+  display: flex;
+  padding-top: 20px;
+}
+
+.d1{
+  width: 65%;
+  height: 600px;
+  background-color: #820cff;
+  border: solid 1px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.d11{
+  font-size: 29px;
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+.div11{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-right: 60px;
+}
+
+.div11 p{
+  font-size: 15px;
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+.img1{
+  width: 35%;
+  height: 600px;
+  background-image: url(img1.png);
+  background-size: cover;
+  background-position: center;
+  border: solid 1px;
+}
+
+.m22{
+  display: flex;
+  width: 100%;
+  height: 600px;
+}
+
+.img2{
+  height: 600px;
+  width: 65%;
+  background: url(imgg2.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.d2{
+   width: 35%;
+  height: 600px;
+  border: solid 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 40px;
+  padding-left: 20px;
+  padding-right: 60px;
+  background-color: rgba(210, 249, 249, 0.805);
+}
+
+.k9{
+  padding-top: 30px;
+  padding-left: 20px;
+  font-size: 30px;
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+.imgg3{
+  width: 100%;
+  height: 650px;
+  background-image: url(imagge3.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.main6{
+  width: 100%;
+  height: 400px;
+  background-color: rgba(210, 249, 249, 0.805);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  border-bottom: solid 1px;
+}
+
+.btn4{
+  width: 185px;
+  height: 40px;
+  border-radius: 7px;
+  background-color: #820cff;
+}
+
+.btn4:hover{
+  background-color: black;
+  color: white;
+}
+
+.text111{
+  font-size: 40px;
+}
+
+footer{
+  height: 500px;
+  width: 100%;
+  background-color: rgba(210, 249, 249, 0.805);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main66{
+  height: 150px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.circle{
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: solid;
+  background-color: black;
+}
+
+.Primal{
+  font-size: 60px;
+  text-align: center;
+  padding-top: 20px;
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+.main77{
+  height: 170px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.contact{
+  color: black;
+}
+
+.hours1{
+  display: flex;
+  gap: 1rem;
+}
+
+.social ul{
+  list-style: none;
+}
+
+.social ul li a{
+  color: black;
+  transition: 0.3s ease;
+}
+
+.social ul li a:hover{
+  opacity: 0.5;
+}
+
+@media (max-width: 768px) {
+
+  .main1 {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    height: auto;
+    padding: 15px 20px;
+    align-items: center;
+    background-color: #f0fdfa;
+    z-index: 9999;
+    box-sizing: border-box;
+  }
+  
+  nav ul, .btn1 {
+    display: none;
+  }
+
+  .sentence1 {
+    font-size: 45px;
+    text-align: left;
+    padding-top: 110px;
+    padding-left: 30px;
+  }
+
+  .main3 {
+    flex-direction: column;
+  }
+  
+  .image1 {
+    width: 100%;
+    height: 250px;
+  }
+  
+  .texts1 {
+    width: 100%;
+    height: auto;
+    padding: 30px 20px;
+  }
+  
+  .barev {
+    margin-bottom: 30px;
+    padding-left: 0;
+  }
+
+  .main4 {
+    flex-direction: column;
+    height: auto;
+  }
+  
+  .image2 {
+    width: 100%;
+    height: 650px;
+    object-fit: cover;
+  }
+
+  .sentence2 {
+    font-size: 38px;
+    text-align: center;
+    padding-top: 300px;
+  }
+
+  .h2 {
+    padding-top: 90px;
+    font-size: 37px;
+    padding-left: 20px;
+  }
+
+  .main2 {
+    height: auto;
+  }
+
+  .k9 {
+    padding-bottom: 30px;
+  }
+
+  .main22, .m22 {
+    display: flex;
+    flex-direction: column; 
+    height: auto;
+  }
+
+  .img1 {
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .d1 {
+    width: 100%;
+    height: auto;
+    padding: 30px 20px;
+  }
+
+  .img2 {
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .d2 {
+    width: 100%;
+    height: auto;
+    padding: 30px 20px;
+  }
+
+  .imgg3 {
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+  }
+
+  .main5 {
+    flex-direction: column;
+    height: auto;
+  }
+  
+  .main55 {
+    width: 100%;
+    height: auto;
+  }
+  
+  .d7, .d8, .d9, .d10, .d11 {
+    height: auto;
+    padding: 20px;
+  }
+  
+  .image3 {
+    width: 100%;
+    height: 350px;
+  }
+
+  .main6 {
+    height: auto;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .text111 {
+    font-size: 30px;
+  }
+
+  footer {
+    height: auto;
+    padding: 30px 20px;
+  }
+  
+  .main66 {
+    flex-direction: column;
+    height: auto;
+    align-items: flex-start;
+    gap: 15px;
+  }
+  
+  .main77 {
+    flex-direction: column;
+    height: auto;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 20px 0 0 0;
+  }
+}

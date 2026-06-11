@@ -68,13 +68,13 @@
 //   slice-Կտրում է տողը սկսած start-ից մինչև end
 //  (մինչև, բայց առանց end-ի)։
 
-var str = "hello world";
-document.writeln(str);
+// var str = "hello world";
+// document.writeln(str);
 
-function myf() {
-  var res = str.slice(0, str.length - 3) + str.slice(str.length - 2);
-  document.writeln(res);
-}
+// function myf() {
+//   var res = str.slice(0, str.length - 3) + str.slice(str.length - 2);
+//   document.writeln(res);
+// }
 //  startsWith- Ճշտում է, արդյոք տողը սկսվում է նշված ենթատողով։
 
 //     function myf(){
